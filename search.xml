@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[移动端软键盘搜索按钮]]></title>
+    <url>%2F2018%2F06%2F22%2F%E7%A7%BB%E5%8A%A8%E7%AB%AF%E8%BD%AF%E9%94%AE%E7%9B%98%E6%90%9C%E7%B4%A2%E6%8C%89%E9%92%AE%2F</url>
+    <content type="text"><![CDATA[最近有个需求，在移动端页面input输入框输入的时候要显示搜索按钮一开始是这么写的,虽然加了input type 设置为 search，但是显示是换行按钮123&lt;div class="m-c-search-l"&gt; &lt;span&gt;&lt;input class="ft-28 c-333" type="search" :placeholder="placeholder" v-model='searchText'/&gt;&lt;/span&gt;&lt;/div&gt; 如图所示 后来找了一些资料得加上form表单，action属性可以设置为空，不然还会跳转一次。然后监听form表单的submit提交触发接口搜索，用keycode事件方法监听键盘也是可以的。123&lt;form action="" @submit.prevent="onEnvent"&gt; &lt;span&gt;&lt;input class="ft-28 c-333" type="search" :placeholder="placeholder" v-model='searchText'/&gt;&lt;/span&gt;&lt;/form&gt; 下面的图是完成的状态]]></content>
+      <tags>
+        <tag>html</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2018%2F06%2F22%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
